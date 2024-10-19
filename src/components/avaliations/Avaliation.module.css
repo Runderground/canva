@@ -1,0 +1,42 @@
+.ava_content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background: rgba(22,22,22);
+  width: 550px;
+  padding: 1rem;
+  border-radius: .5rem;
+  border: 2px solid rgb(98, 201, 84);
+}
+
+.ava_image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: .5rem;
+}
+
+.ava_name {
+  color: rgb(98, 201, 84);
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.ava_rate {
+  display: flex;
+  gap: .5rem;
+  font-size: 1.25rem;
+  color: rgb(235, 206, 61);
+}
+
+.ava_desc {
+  font-size: 1rem;
+  margin: .5rem auto;
+}
+
+@media screen and (max-width: 768px) {
+  .ava_content {
+    width: 400px;
+  }
+}
