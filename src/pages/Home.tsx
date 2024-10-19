@@ -27,7 +27,7 @@ export default function Home() {
               funcionalidades desbloqueadas.
             </p>
             <br />
-            <Link to="">Quero Adquirir Agora!</Link>
+            <Link to="https://pay.kiwify.com.br/4h3yr1O">Quero Adquirir Agora!</Link>
           </div>
 
           <img
@@ -78,7 +78,7 @@ export default function Home() {
             />
           </Card.Root>
         </div>
-        <Link to="">Comprar</Link>
+        <Link to="https://pay.kiwify.com.br/4h3yr1O">Comprar</Link>
       </section>
       <section className={style.third_section}>
         <h2>Opiniões de quem já comprou:</h2>
@@ -192,7 +192,7 @@ export default function Home() {
              }
            />
             <h4>R$ 13</h4>
-           <Link to="">Comprar</Link>
+           <Link to="https://pay.kiwify.com.br/4h3yr1O">Comprar</Link>
          </Card.Root>
        </div>
       </section>
