@@ -53,7 +53,7 @@ export default function Home() {
             <Card.Title title={"Preço"} />
             <Card.Description
               description={
-                "O preço mais barato do mercado, 50% do valor original no Canva!"
+                "O preço mais barato do mercado, 40% do valor original no Canva!"
               }
             />
           </Card.Root>
@@ -131,10 +131,6 @@ export default function Home() {
                 ainda não conseguir, você terá acesso a um vídeo de como
                 ativa-lo.
               </p>
-              <strong style={{ background: "rgba(255,50,60)" }}>
-                ATENÇÃO: Ativação será direto no seu email via link do Canva
-                Equipes.
-              </strong>
             </details>
           </div>
           <div className={style.faq_item}>
